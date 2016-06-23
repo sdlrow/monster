@@ -1,0 +1,31 @@
+size (1000,500);
+fill(0,255,0);
+triangle (50,50, 500, 500, 400, 500);
+triangle (950,50, 500, 500, 600, 500);
+
+ellipseMode(CENTER); 
+ellipse(500, 500, 300, 300);
+fill(0);
+rectMode (CENTER);
+rect(950,50,50,50);
+fill(255);
+ellipseMode(CENTER); 
+ellipse(950, 50, 20, 20);
+fill(0);
+rectMode (CENTER);
+rect(50,50,50,50);
+fill(255);
+ellipseMode(CENTER); 
+ellipse(50, 50, 20, 20);
+
+fill(0);
+fill(255,0,0);
+rectMode (CENTER);
+rect (500, 500, 150, 150);
+fill(255);
+rectMode (CENTER);
+rect (450, 500, 20, 20);
+rectMode (CENTER);
+rect (500,500,20,20);
+rectMode (CENTER);
+rect (550,500,20,20);
